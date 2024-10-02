@@ -25,6 +25,7 @@ body{
     margin: auto;
     margin-top: 25px;
     border-radius: 8px;
+    cursor: pointer;
 }
 h1, h2{
     margin-left: 25px;
@@ -34,6 +35,7 @@ h1{
     font-size: 1.3rem;
     color: hsl(0, 0%, 100%);
     font-weight: 600;
+    cursor: pointer;
 }
 h2{
     font-size: 1rem;
@@ -91,8 +93,14 @@ p{
     font-size: .8rem;
     margin-top: 2px;
     margin-left: 10px;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
 }
 span{
+    color: hsl(178, 100%, 50%);
+    margin-right: 5px;
+}
+p:hover{
     color: hsl(178, 100%, 50%);
 }
 @media  screen and (max-width: 600px) {
